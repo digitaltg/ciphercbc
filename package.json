@@ -1,0 +1,27 @@
+{
+  "name": "cipher-cb",
+  "version": "1.0.0",
+  "description": "An encryption library using cipher block chaining. This wrapper the CBC functionnality of the aes-js library",
+  "scripts": {
+    "test": "mocha",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "author": "atd@xampy",
+  "files": [
+    "lib/**/*.js",
+    "scripts/**/*.js"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/main.js",
+  "react-native": "lib/main.js",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "chai": "^4.3.10",
+    "crypto": "^1.0.1",
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0",
+    "pbkdf2": "^3.1.2"
+  }
+}
