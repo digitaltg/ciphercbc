@@ -1,20 +1,24 @@
 {
-  "name": "cipher-cb",
+  "name": "@digitaltg/cipher-cb",
   "version": "1.0.0",
   "description": "An encryption library using cipher block chaining. This wrapper the CBC functionnality of the aes-js library",
   "scripts": {
     "test": "mocha",
     "webpack": "webpack --config webpack.config.js"
   },
-  "author": "atd@xampy",
+  "author": "atd",
   "files": [
     "lib/**/*.js",
     "scripts/**/*.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitaltg/ciphercbc.git"
+  },
+  "keywords": [],
   "main": "lib/index.js",
   "module": "lib/main.js",
   "react-native": "lib/main.js",
-  "keywords": [],
   "license": "ISC",
   "dependencies": {
     "aes-js": "^3.1.2",
